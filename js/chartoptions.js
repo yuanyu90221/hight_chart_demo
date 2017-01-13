@@ -45,6 +45,10 @@ $(function(){
             data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4],
             pointStart: Date.UTC(2010, 0, 1),
             pointInterval: 3600 * 1000 // one hour
+        },{
+            data: [10.9, 80.5, 10.4, 200.2, 0.0, -88.0, 190.6, -20.5, 216.4, 0.1, 10.6, 400.4],
+            pointStart: Date.UTC(2010, 0, 1),
+            pointInterval: 3600 * 1000 // one hour
         }],
 	    title: {
 	    	text: 'Second Chart'
@@ -62,6 +66,10 @@ $(function(){
 
         series: [{
             data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4],
+            pointStart: Date.UTC(2010, 0, 1),
+            pointInterval: 3600 * 1000 // one hour
+        },{
+            data: [10.9, 80.5, 10.4, 200.2, 0.0, 40.0, 190.6, 20.5, 216.4, 0.1, 10.6, 400.4],
             pointStart: Date.UTC(2010, 0, 1),
             pointInterval: 3600 * 1000 // one hour
         }],
