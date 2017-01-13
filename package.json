@@ -1,0 +1,14 @@
+{
+  "name": "high_chart_demo",
+  "version": "1.0.0",
+  "description": "highchart",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "highchart"
+  ],
+  "author": "yuanyu",
+  "license": "ISC"
+}
